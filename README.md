@@ -9,3 +9,6 @@ NOTE: the application is not finished, the focus of the project wasn't about the
 ## Authors
  - Mazzitelli Davide
  - Motta Giacomo (me)
+
+# How to setup
+To Do
