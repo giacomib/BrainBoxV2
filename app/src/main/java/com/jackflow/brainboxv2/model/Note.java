@@ -1,4 +1,4 @@
-package com.jackflow.brainboxv2;
+package com.jackflow.brainboxv2.model;
 
 public class Note {
 
