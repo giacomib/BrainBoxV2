@@ -10,5 +10,5 @@ NOTE: the application is not finished, the focus of the project wasn't about the
  - Mazzitelli Davide
  - Motta Giacomo (me)
 
-# How to setup
+## How to setup
 To Do
