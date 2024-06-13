@@ -19,6 +19,6 @@ public interface NoteDao {
     @Query("DELETE FROM note_table")
     void deleteAll();
 
-    @Query("SELECT * FROM note_table ORDer BY title ASC")
+    @Query("SELECT * FROM note_table ORDER BY title ASC")
     LiveData<List<Note>> getAlphabetizedNotes();
 }
