@@ -1,8 +1,15 @@
 package com.jackflow.brainboxv2.model;
 
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
 import java.util.ArrayList;
 
+@Entity(tableName = "users")
 public class User {
+
+    @PrimaryKey(autoGenerate = true)
+    private int userId;
 
     private String name;
 
@@ -10,19 +17,16 @@ public class User {
 
     private String email;
 
-    private ArrayList<Note> notes;
-
-    protected User(String name, String surname, String email) {
+    public User(String name, String surname, String email) {
         this.name = name;
         this.surname = surname;
         this.email = email;
     }
 
-    protected User(String name, String surname, String email, ArrayList<Note> notes) {
+    public User(String name, String surname, String email, ArrayList<Note> notes) {
         this.name = name;
         this.surname = surname;
         this.email = email;
-        this.notes = notes;
     }
 
     public String getName() {
@@ -47,13 +51,5 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public ArrayList<Note> getNotes() {
-        return notes;
-    }
-
-    public void setNotes(ArrayList<Note> notes) {
-        this.notes = notes;
     }
 }
