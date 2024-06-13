@@ -9,11 +9,6 @@ public class Note {
     public Note() {
     }
 
-    /**
-     * a simple class representing a note
-     * @param title title of the note
-     * @param text actual text of the note
-     */
     public Note(String title, String text) {
         this.title = title;
         this.text = text;
