@@ -8,13 +8,15 @@
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightGreen" />
+        android:layout_height="48dp"
+        android:layout_margin="@dimen/small_padding"
+        android:background="@drawable/text_view_background" />
 
     <TextView
         android:id="@+id/textViewText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightGreen" />
+        android:layout_height="48dp"
+        android:layout_margin="@dimen/small_padding"
+        android:background="@drawable/text_view_background" />
 
 </LinearLayout>

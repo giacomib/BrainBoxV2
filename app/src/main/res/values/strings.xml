@@ -6,7 +6,7 @@
     <string name="don_t_have_an_account_click_here_to_register_now">Don\'t have an account? \nclick here to register now</string>
     <string name="add_note">Add note</string>
     <string name="hint_note_title">Title</string>
-    <string name="hint_note_text">My wonderful first note...</string>
+    <string name="hint_note_text">My wonderful first note…</string>
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Note not saved because it is empty.</string>
     <string name="hint_email">your email</string>
